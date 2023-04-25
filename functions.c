@@ -1,16 +1,16 @@
 /**
  * _strlen - find the length of a string
  *
- * @s: pointer to the string to be checked
+ * @s: pointer to the string to check
  *
  * Return: null
 */
 
 
-int _strlen(const char *p)
+int _strlen(const char *s)
 {
 int j = 0;
-while (p[i])
+while (s[j])
 	j++;
 
 return (j);
@@ -19,14 +19,10 @@ return (j);
 
 /**
  * *_strcpy -  copies the string pointed to by src
- *
  * @dest: char type string
- *
  * @src: char type string
- *
  * Description: Copy the string pointed to by pointer `src` to
  * the buffer pointed to by `dest`
- *
  * Return: Pointer to `dest`
  */
 
